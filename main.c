@@ -41,7 +41,7 @@ int main(void) {
     printf("\nInserisci il secondo numero: ");
     scanf("%d", &b);
     int *m = malloc(sizeof(int)* a * b);
-    m[a,b];
+    m[a * b];
 
     Assegna(m, a, b);
     StampaMatrice(m, a, b);
